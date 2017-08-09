@@ -9,9 +9,9 @@ $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 $(call inherit-product, device/lge/bullhead/aosp_bullhead.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := lineage_bullhead
+PRODUCT_NAME := aopp_bullhead
 PRODUCT_BRAND := google
-PRODUCT_MODEL := Nexus 5X
+PRODUCT_MODEL := Pwn Phone
 TARGET_MANUFACTURER := LGE
 PRODUCT_RESTRICT_VENDOR_FILES := false
 
